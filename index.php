@@ -7,9 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">     
-    <title>زفّة.| الصفحة الرئيسية</title>
+    <title>زفّة. | الصفحة الرئيسية</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body dir="rtl">
@@ -43,27 +44,54 @@
                 <div class="swiper-slide"><img src="img/img8.jpg" alt=""> </div>
             </div>
         </div>
-
     </section>
 
 
     <section class="about" id="about">
         <h1 class="heading">تعرف <span>عنا</span></h1>
         <div class="row" >
-            <div class="image" ><img src="img/18.jpg" alt=""></div>
+            <div class="image" ><img src="img/abouut.jpg" alt=""></div>
             <div class="content">
                 <h3 >سنقدم لك احتفالًا خاصًا جدًا.</h3>
-                <p >"اكتشف الجمال في كل لحظة مع موقعنا لتخطيط الأعراس! ابدأ 
-                    اليوم بتحقيق حلمك لإنشاء حفل زفاف يترك انطباعًا يدوم للأبد."</p>
-                <p >"اكتشف السحر في كل لحظة من لحظاتك الخاصة. مع موقعنا،
-                     نحن نجعل يوم زفافك لا يُنسى بتصميمات رائعة وخدمات متميزة. 
-                     ابدأ رحلتك نحو الفخامة والأناقة اليوم معنا."</p>
-                     <a href="#contact" class="btn">تواصل معنا</a>
-            
-            </div>
+                <p>
+                    اكتشف الجمال في كل لحظة مع موقعنا لتخطيط الأعراس! ابدأ اليوم بتحقيق حلمك لإنشاء حفل زفاف يترك انطباعًا يدوم للأبد.
+                </p>
+                <p>
+                    اكتشف السحر في كل لحظة من لحظاتك الخاصة. مع موقعنا، نحن سنجعل يوم زفافك لا يُنسى بتصميمات رائعة وخدمات متميزة. ابدأ رحلتك نحو الفخامة والأناقة اليوم معنا.
+                </p>
 
+                <div class="info-boxes">
+                    <div class="info-item">
+                        <i class="fas fa-ruler-combined"></i>
+                        <span>15000 م² مساحة</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-car"></i>
+                        <span>موقف سيارات واسع</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>موقع استراتيجي</span>
+                    </div>
+                </div>
+                
+                <div class="btns">
+                    <a href="#!" class="btn" id="openVideo">شاهد فيديو القاعة</a>
+                    <a href="form.php" class="btn">احجز الآن</a>
+                </div>
+            </div>
         </div>
     </section>
+
+    <div id="videoModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <video controls>
+        <source src="img/zaffavideo.mp4" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو
+        </video>
+    </div>
+    </div>
 
     <section class="service" id="service"> 
         <h1 class="heading">خدماتنا<span> المتوفرة</span></h1>
@@ -75,23 +103,17 @@
                 
             </div>
         
-
-        
             <div class="box">
                 <i class="fas fa-envelope"></i>
                 <h3>بطاقة الدعوة</h3>
                 
             </div>
     
-
-        
             <div class="box">
                 <i class="fas fa-music"></i>
                 <h3>الموسيقى</h3>
                 
             </div>
-        
-
         
             <div class="box">
                 <i class="fas fa-utensils"></i>
@@ -253,12 +275,7 @@
                     <p> كانت تجربتي مع قاعة "زفّـــــة " ممتازة. الخدمة الاحترافية،
                          والطعام الشهي،
                           والديكور الفاخر جعلوا من حفل زفافي يومًا لا يُنسى. أوصي بهذه القاعة لأي شخص يبحث عن مكان مميز  .</p>
-                </div>
-
-                
-                
-
-              
+                </div>      
             </div>
 
         </div>
@@ -334,7 +351,7 @@
 
 
     <div class="floating-action-button">
-        <a href="form.php" class="btn">طلب السعر مجانا</a>
+        <a href="form.php" class="btn">احجز الآن</a>
     </div>
 
 

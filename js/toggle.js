@@ -44,7 +44,8 @@ var swiper = new Swiper(".home-slider", {
       slideShadows: true,
     },
     loop:true,
-    autoplay:{delay:1000,disableOnInteraction:false}
+    autoplay:{delay:1000,disableOnInteraction:false},
+    speed: 1000,
   });
 
 var swiper1= new Swiper(".review-slider",{
@@ -67,3 +68,33 @@ var swiper1= new Swiper(".review-slider",{
       //delay:5000,
       //disableOnInteraction:false}   
   });
+
+
+  //video Zaffa
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("videoModal");
+  const btn = document.getElementById("openVideo");
+  const closeBtn = modal.querySelector(".close");
+  const video = modal.querySelector("video");
+
+  btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    modal.classList.add("open");
+    video.currentTime = 0;
+    video.play().catch(() => {});
+  });
+
+  if (closeBtn) {
+    closeBtn.addEventListener("click", function () {
+      modal.classList.remove("open");
+      video.pause();
+    });
+  }
+
+  modal.addEventListener("click", function (e) {
+    if (e.target === modal) {
+      modal.classList.remove("open");
+      video.pause();
+    }
+  });
+});
