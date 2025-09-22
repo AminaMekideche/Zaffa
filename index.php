@@ -70,8 +70,8 @@
                         <span>موقف سيارات واسع</span>
                     </div>
                     <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>موقع استراتيجي</span>
+                        <i class="fas fa-solid fa-lock"></i>
+                        <span>خدمة الأمن والحراسة</span>
                     </div>
                 </div>
                 
@@ -99,41 +99,32 @@
         <div class="box-container">
             <div class="box">
                 <i class="fas fa-map-marker-alt"></i>
-                <h3>اختيار الديكور</h3>
-                
+                <h3>اختيار الديكور</h3>      
             </div>
         
             <div class="box">
                 <i class="fas fa-envelope"></i>
-                <h3>بطاقة الدعوة</h3>
-                
+                <h3>بطاقة الدعوة</h3>        
             </div>
     
             <div class="box">
                 <i class="fas fa-music"></i>
-                <h3>الموسيقى</h3>
-                
+                <h3>الموسيقى</h3>   
             </div>
         
             <div class="box">
                 <i class="fas fa-utensils"></i>
                 <h3>الأكل و المشروبات</h3>
-                
             </div>
-
             
             <div class="box">
-                    <i class="fas fa-photo-video"></i>
-                    <h3>الصور و الفيديوهات</h3>
-                    
+                <i class="fas fa-photo-video"></i>
+                <h3>الصور و الفيديوهات</h3>       
             </div>
-        
-
         
             <div class="box">
                 <i class="fas fa-birthday-cake"></i>
-                <h3>الكعكة</h3>
-                
+                <h3>الكعكة</h3>   
             </div>
         </div>
 
