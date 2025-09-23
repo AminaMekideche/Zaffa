@@ -98,33 +98,39 @@
 
         <div class="box-container">
             <div class="box">
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>اختيار الديكور</h3>      
-            </div>
-        
-            <div class="box">
-                <i class="fas fa-envelope"></i>
-                <h3>بطاقة الدعوة</h3>        
-            </div>
-    
-            <div class="box">
-                <i class="fas fa-music"></i>
-                <h3>الموسيقى</h3>   
-            </div>
-        
-            <div class="box">
                 <i class="fas fa-utensils"></i>
                 <h3>الأكل و المشروبات</h3>
+                <p>من الأطباق الرئيسية حتى التحلية</p>
             </div>
-            
+
+            <div class="box">
+                <i class="fas fa-music"></i>
+                <h3>الموسيقى (DJ)</h3>   
+                <p>صوتيات عالية الجودة</p>
+            </div>
+
             <div class="box">
                 <i class="fas fa-photo-video"></i>
-                <h3>الصور و الفيديوهات</h3>       
+                <h3>التصوير (صور / فيديو)</h3>  
+                <p>فريق تصوير محترف لتوثيق لحظاتك</p>     
+            </div>
+
+            <div class="box">
+                <i class="fas fa-solid fa-couch"></i>
+                <h3>الديكور</h3>    
+                <p>تصاميم راقية تناسب ذوقك</p>  
             </div>
         
             <div class="box">
-                <i class="fas fa-birthday-cake"></i>
-                <h3>الكعكة</h3>   
+                <i class="fas fa-solid fa-handshake"></i>
+                <h3>الفريق التنظيمي</h3>   
+                <p>تنظيم شامل لحفلك من البداية حتى النهاية</p>     
+            </div>
+        
+            <div class="box">
+                <i class="fas fa-solid fa-shield"></i>                
+                <h3>فريق منع التصوير</h3>   
+                <p>لحماية خصوصية ضيوفك</p>
             </div>
         </div>
 
