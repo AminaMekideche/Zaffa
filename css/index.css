@@ -157,9 +157,9 @@ section{
     width: 30rem;
     }
 .home .home-slider .swiper-slide img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .service .box-container{
     display: grid;
@@ -167,8 +167,14 @@ section{
     gap: 1.5rem;
 }
 .service .box-container .box{
-border-radius: .5rem;
-background: #dd99ef;text-align: center;padding: 2rem;
+    border-radius: .5rem;
+    /*background: #dd99ef;text-align: center;padding: 2rem;*/
+    background: #ffffff;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    color: #333;
+    border: #ad14db 1px solid;
 }
 .service .box-container .box i{
     height: 6rem;
@@ -180,10 +186,13 @@ background: #dd99ef;text-align: center;padding: 2rem;
     color:#fff;
 }
 .service .box-container .box h3{
-    font-size: 2rem;color: #fff;padding: 1rem 0;
+    /*font-size: 2rem;color: #fff;padding: 1rem 0;*/
+    font-size: 2rem;color: #ad14db;
+    padding: 1rem 0;
 }
 .service .box-container .box p{
-    font-size: 1.4rem;color: #eee;line-height: 1.8;
+    font-size: 1.4rem;color: #444;
+    line-height: 1.8;
 }
 .about .row{
     display: flex;

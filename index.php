@@ -20,8 +20,7 @@
             <a href="#home">الصفحة الرئيسية</a>
             <a href="#about">تعرف عنا</a>
             <a href="#service">الخدمات</a>
-            <a href="#gallery">الصور</a>
-            <a href="#price">عروضنا</a>
+            <a href="#gallery">المعرض</a>
             <a href="#review">تقييماتنا</a>
             <a href="#contact">تواصل معنا</a>
         </nav>
@@ -174,67 +173,14 @@
             <div class="box">
                 <img src="img/23.jpg" alt="">
                 <h3 class="title">حفل التخرج</h3>
-               
-            </div>
-            
-           
+            </div>   
         </div>
     </section>
-    <section class="price" id="price">
-        <h1 class="heading">عروضنا <span>الخاصة</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <h3 class="title">من أجل عيد ملادك</h3>
-                <h3 class="amo" dir="ltr">15000 DA </h3>
-                <ul>
-                    <li> <i class="fas fa-check"></i>خدماتنا</li>
-                    <li> <i class="fas fa-check">  </i>  الموسيقى والصور</li>
-                    <li> <i class="fas fa-check"></i> الأكل و المشروبات</li>
-                    <li> <i class="fas fa-check"></i>بطاقات الدعوة </li>
-                </ul>
-                <a href="#" class="btn">دفع</a>
-            </div>
-            <div class="box">
-                <h3 class="title"> الزواج</h3>
-                <h3 class="amo" dir="ltr">100000 DA</h3>
-                <ul>
-                    <li><i class="fas fa-check"></i>خدماتنا</li>
-                    <li><i class="fas fa-check"></i>الموسيقى و الصور</li>
-                    <li><i class="fas fa-check"></i>الأكل و المشروبات</li>
-                    <li><i class="fas fa-check"></i>بطاقات الدعوة</li>
-                </ul>
-                <a href="#" class="btn">دفع</a>
-            </div>
-            <div class="box">
-                <h3 class="title"> حفل تخرج</h3>
-                <h3 class="amo" dir="ltr">25000 DA</h3>
-                <ul>
-                    <li><i class="fas fa-check"></i>خدماتنا</li>
-                    <li><i class="fas fa-check"></i>الموسيقى و الصور</li>
-                    <li><i class="fas fa-check"></i>الأكل و المشروبات</li>
-                    <li><i class="fas fa-check"></i>بطاقات الدعوة</li>
-                </ul>
-                <a href="#" class="btn">دفع</a>
-            </div>
-            <div class="box">
-                <h3 class="title"> الختان</h3>
-                <h3 class="amo" dir="ltr">43000 DA</h3>
-                <ul>
-                    <li><i class="fas fa-check"></i>خدماتنا</li>
-                    <li><i class="fas fa-check"></i>الموسيقى و الصور</li>
-                    <li><i class="fas fa-check"></i>الأكل و المشروبات</li>
-                    <li><i class="fas fa-check"></i>بطاقات الدعوة</li>
-                </ul>
-                <a href="#" class="btn">دفع</a>
-            </div>
-        </div>
-    </section>
+    
     <section class="review" id="review">
         <h1 class="heading" >تقييم <span>عملاءنا</span></h1>
         <div class="   review-slider swiper-container">
             <div class="swiper-wrapper">
-
-
                 <div class="swiper-slide box">
                     <i class="fas fa-quote-right"></i>
                     <div class="user">
@@ -245,8 +191,7 @@
                     </div>
                     <p>قاعة "زفّـــــة" تفوق التوقعات بكل المقاييس. من لحظة الحجز وحتى نهاية الحفل، تميزت الخدمة، الطعام،
                          والديكور بمستويات عالية من الجودة والاحترافية، مما جعل يوم زفافي ذكرى لا تنسى.
-                     
-                       </p>
+                    </p>
                 </div>
 
                 <div class="swiper-slide box">
@@ -300,8 +245,6 @@
     </section>
     <section class="footer">
         <div class="box-container">
-           
-
             <div class="box">
                 <h3>عناصر الموقع</h3>
                 <a href="#home"><i class="fas fa-arrow-left">   </i>     الصفحة الرئيسية           </a>
