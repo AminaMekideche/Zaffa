@@ -105,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   buttons.forEach(btn => {
     btn.addEventListener("click", () => {
+      // remove active class from all buttons
       buttons.forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
 
@@ -112,14 +113,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
       items.forEach(item => {
         if (filter === "all" || item.classList.contains(filter)) {
-          item.style.display = "block"; 
+          item.classList.remove("hide");
         } else {
-          item.style.display = "none"; 
+          item.classList.add("hide");
         }
       });
     });
   });
 });
+
 
 
 

@@ -130,52 +130,50 @@
    
     <section class="gallery" id="gallery">
         <h1 class="heading" >معرض<span>نا</span></h1>
-
         <div class="filter-buttons">
             <button class="filter-btn active" data-filter="all">الكل</button>
             <button class="filter-btn" data-filter="deco">الديكور</button>
             <button class="filter-btn" data-filter="food">الأطباق</button>
             <button class="filter-btn" data-filter="moments">اللحظات</button>
         </div>
-
         <div class="box-container">
-            <div class="box all">
-                <img src="img/19.jpg" alt="">
+            <div class="box all moments">
+                <img src="img/gl1.jpg" alt="">
             </div>
-
-            <div class="box all">
-                <img src="img/19.jpg" alt="">
+            <div class="box all food">
+                <img src="img/gl2.jpg" alt="">
             </div>
-        
-            <div class="box deco">
-                <img src="img/19.jpg" alt="">
+            <div class="box all deco">
+                <img src="img/gl3.jpg" alt="">
             </div>
-
-            <div class="box food">
-                <img src="img/19.jpg" alt="">
+            <div class="box all moments">
+                <img src="img/gl4.jpg" alt="">
             </div>
-
-            <div class="box food">
-                <img src="img/19.jpg" alt="">
+            <div class="box all food">
+                <img src="img/gl5.jpg" alt="">
             </div>
-
-            <div class="box moments">
-                <img src="img/19.jpg" alt="">
+            <div class="box all deco">
+                <img src="img/gl6.jpg" alt="">
             </div>
-
-            <div class="box moments">
-                <img src="img/19.jpg" alt="">
+            <div class="box all moments">
+                <img src="img/gl7.jpg" alt="">
             </div>
-            
+            <div class="box all food">
+                <img src="img/gl8.jpg" alt="">
+            </div>
+            <div class="box all deco">
+                <img src="img/gl9.jpg" alt="">
+            </div>
         </div>
     </section>
     
     <section class="review" id="review">
-        <h1 class="heading" >تقييم <span>عملاءنا</span></h1>
-        <div class="   review-slider swiper-container">
+        <h1 class="heading" >آراء<span>عملائنا</span></h1>
+
+        <div class="review-slider swiper-container">
             <div class="swiper-wrapper">
+
                 <div class="swiper-slide box">
-                    <i class="fas fa-quote-right"></i>
                     <div class="user">
                         <img src="img/24.jpg" alt="">
                         <div class="user-info">
@@ -188,7 +186,6 @@
                 </div>
 
                 <div class="swiper-slide box">
-                    <i class="fas fa-quote-right"></i>
                     <div class="user">
                         <img src="img/25.jpg" alt="">
                         <div class="user-info">
@@ -200,7 +197,6 @@
                 </div>
 
                 <div class="swiper-slide box">
-                    <i class="fas fa-quote-right"></i>
                     <div class="user">
                         <img src="img/26.jpg" alt="">
                         <div class="user-info">

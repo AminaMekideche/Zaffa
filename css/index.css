@@ -355,11 +355,9 @@ section{
     object-fit: cover;
     transition: transform 0.3s ease;
 }
-.gallery .box-container .box.hide{
-  display: none;
+.gallery .box-container .box.hide {
+  display: none !important;
 }
-
-
 
 
 .review .box{
