@@ -1,76 +1,75 @@
+/* Navbar Menu */
 let menu = document.querySelector('#menu-bars');
 let navbar = document.querySelector('.navbar');
-menu.onclick = () => {
-    menu.classList.toggle('fa-times');
-    navbar.classList.toggle('active');
-}
 
+menu.onclick = () => {
+  menu.classList.toggle('fa-times');
+  navbar.classList.toggle('active');
+};
+
+
+/* Theme Toggler */
 let themetoggler = document.querySelector('.theme-toggler');
 let togglebtn = document.querySelector('.toggle-btn');
 
 togglebtn.onclick = () => {
   themetoggler.classList.toggle('active');
-}
-
-window.onscroll = () => {
-    menu.classList.remove('fa-times');
-    navbar.classList.remove('active');
-    themetoggler.classList.remove('active');
-}
+};
 
 document.querySelectorAll('.theme-toggler .theme-btn').forEach(btn => {
   btn.onclick = () => {
     let color = btn.style.backgroundColor;
     document.querySelector(':root').style.setProperty('--main-color', color);
-  }
+  };
 });
 
 
+/* Reset on Scroll */
+window.onscroll = () => {
+  menu.classList.remove('fa-times');
+  navbar.classList.remove('active');
+  themetoggler.classList.remove('active');
+};
 
 
-
-
-
+/* Swiper Sliders */
 var swiper = new Swiper(".home-slider", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-      rotate: 0,
-      stretch: 0,
-      depth: 100,
-      modifier: 2,
-      slideShadows: true,
-    },
-    loop:true,
-    autoplay:{delay:1000,disableOnInteraction:false},
-    speed: 1000,
-  });
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 2,
+    slideShadows: true,
+  },
+  loop: true,
+  autoplay: { delay: 1000, disableOnInteraction: false },
+  speed: 1000,
+});
 
-var swiper1= new Swiper(".review-slider",{
-    slidesPerView: 1,
-    grabCursor: true,
-    loop:true,
-    spaceBetween: 10,
-    breakpoints: {
-      0: {
-      slidesPerView: 1,},
-      700: {  
+var swiper1 = new Swiper(".review-slider", {
+  slidesPerView: 1,
+  grabCursor: true,
+  loop: true,
+  spaceBetween: 10,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    700: {
       slidesPerView: 2,
-       },
-      1050: {
-      slidesPerView: 3,
-       },
     },
-    //loop:true,
-    //autoplay:{
-      //delay:5000,
-      //disableOnInteraction:false}   
-  });
+    1050: {
+      slidesPerView: 3,
+    },
+  },
+});
 
 
-  //video Zaffa
+/* Video Modal */
 document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("videoModal");
   const btn = document.getElementById("openVideo");
@@ -98,3 +97,30 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+/* Filter Buttons */
+document.addEventListener("DOMContentLoaded", function() {
+  const buttons = document.querySelectorAll(".filter-btn");
+  const items = document.querySelectorAll(".box-container .box");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      buttons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      const filter = btn.getAttribute("data-filter");
+
+      items.forEach(item => {
+        if (filter === "all" || item.classList.contains(filter)) {
+          item.style.display = "block"; 
+        } else {
+          item.style.display = "none"; 
+        }
+      });
+    });
+  });
+});
+
+
+
+
