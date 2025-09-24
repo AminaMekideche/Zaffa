@@ -130,35 +130,41 @@
    
     <section class="gallery" id="gallery">
         <h1 class="heading" >معرض<span>نا</span></h1>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">الكل</button>
+            <button class="filter-btn" data-filter="deco">الديكور</button>
+            <button class="filter-btn" data-filter="food">الأطباق</button>
+            <button class="filter-btn" data-filter="moments">اللحظات</button>
+        </div>
+
         <div class="box-container">
-            <div class="box">
+            <div class="box all">
                 <img src="img/19.jpg" alt="">
-                <div class="overlay">القاعة</div>  
             </div>
 
-            <div class="box">
+            <div class="box all">
                 <img src="img/19.jpg" alt="">
-                <div class="overlay">الأطباق</div>  
             </div>
         
-            <div class="box">
+            <div class="box deco">
                 <img src="img/19.jpg" alt="">
-                <div class="overlay">الموسيقى</div>  
             </div>
 
-            <div class="box">
+            <div class="box food">
                 <img src="img/19.jpg" alt="">
-                <div class="overlay">الديكور</div>  
             </div>
 
-            <div class="box">
+            <div class="box food">
                 <img src="img/19.jpg" alt="">
-                <div class="overlay">التصوير</div>  
             </div>
 
-            <div class="box">
+            <div class="box moments">
                 <img src="img/19.jpg" alt="">
-                <div class="overlay">الكعكة</div>  
+            </div>
+
+            <div class="box moments">
+                <img src="img/19.jpg" alt="">
             </div>
             
         </div>

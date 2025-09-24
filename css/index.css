@@ -304,7 +304,6 @@ section{
   font-size: 1.2rem;
   color: #333;
 }
-
 .info-item i {
   display: block;
   font-size: 1.8rem;
@@ -312,10 +311,27 @@ section{
   color: #cfa44b;
 }
 
-.gallery {
-  padding: 4rem 2rem;
-  background: #fff;
-  text-align: center;
+.gallery .filter-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+.gallery .filter-buttons .filter-btn{
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background: #f2f2f2;
+    color:#333;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.gallery .filter-buttons .filter-btn.active,
+.gallery .filter-buttons .filter-btn:hover {
+  background: #ad14db;
+  color: #fff;
 }
 .gallery .box-container{
     display: grid;
@@ -324,7 +340,6 @@ section{
 }
 .gallery .box-container .box{
     position: relative;
-    /*border: 1rem solid #333;*/
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     height: 25rem;
@@ -332,34 +347,20 @@ section{
     transition: transform 0.3s ease;
     overflow: hidden;
 }
-.gallery .box-container .box:hover{
-    transform: scale(1.05);
-}
 .gallery .box-container .box img{
     height: 100%;
     width: 100%;
     display: block;
     border-radius: 12px;
     object-fit: cover;
-    transition: opacity 0.3s ease;
+    transition: transform 0.3s ease;
 }
-.gallery .box-container .box .overlay{
-    position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(173, 20, 219, 0.8); /* اللون البنفسجي من موقعك */
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 0.7rem;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+.gallery .box-container .box.hide{
+  display: none;
 }
-.gallery .box-container .box:hover .overlay{
-  opacity: 1;
-}
+
+
+
 
 .review .box{
     border-radius: .5rem;
