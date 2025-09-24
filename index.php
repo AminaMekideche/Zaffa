@@ -90,90 +90,77 @@
         متصفحك لا يدعم تشغيل الفيديو
         </video>
     </div>
-    </div>
+</div>
 
     <section class="service" id="service"> 
         <h1 class="heading">خدماتنا<span> المتوفرة</span></h1>
-
         <div class="box-container">
             <div class="box">
                 <i class="fas fa-utensils"></i>
                 <h3>الأكل و المشروبات</h3>
                 <p>من الأطباق الرئيسية حتى التحلية</p>
             </div>
-
             <div class="box">
                 <i class="fas fa-music"></i>
                 <h3>الموسيقى (DJ)</h3>   
                 <p>صوتيات عالية الجودة</p>
             </div>
-
             <div class="box">
                 <i class="fas fa-photo-video"></i>
                 <h3>التصوير (صور / فيديو)</h3>  
                 <p>فريق تصوير محترف لتوثيق لحظاتك</p>     
             </div>
-
             <div class="box">
                 <i class="fas fa-solid fa-couch"></i>
                 <h3>الديكور</h3>    
                 <p>تصاميم راقية تناسب ذوقك</p>  
             </div>
-        
             <div class="box">
                 <i class="fas fa-solid fa-handshake"></i>
                 <h3>الفريق التنظيمي</h3>   
                 <p>تنظيم شامل لحفلك من البداية حتى النهاية</p>     
             </div>
-        
             <div class="box">
                 <i class="fas fa-solid fa-shield"></i>                
                 <h3>فريق منع التصوير</h3>   
                 <p>لحماية خصوصية ضيوفك</p>
             </div>
         </div>
-
     </section>
    
-
     <section class="gallery" id="gallery">
         <h1 class="heading" >معرض<span>نا</span></h1>
-
         <div class="box-container">
+            <div class="box">
+                <img src="img/19.jpg" alt="">
+                <div class="overlay">القاعة</div>  
+            </div>
 
             <div class="box">
                 <img src="img/19.jpg" alt="">
-                <h3 class="title">حفل عيد ميلاد</h3>
-                
-            </div>
-
-            <div class="box">
-                <img src="img/7.jpg" alt="">
-                <h3 class="title">صور العرسان</h3>
-                
+                <div class="overlay">الأطباق</div>  
             </div>
         
             <div class="box">
-                <img src="img/20.jpg" alt="">
-                <h3 class="title"> الأكل</h3>
-               
-            </div>
-            <div class="box">
-                <img src="img/21.jpg" alt="">
-                <h3 class="title">ديكور القاعة</h3>
-                
+                <img src="img/19.jpg" alt="">
+                <div class="overlay">الموسيقى</div>  
             </div>
 
+            <div class="box">
+                <img src="img/19.jpg" alt="">
+                <div class="overlay">الديكور</div>  
+            </div>
 
             <div class="box">
-                <img src="img/22.jpg" alt="">
-                <h3 class="title"> الأواني</h3>
-                
+                <img src="img/19.jpg" alt="">
+                <div class="overlay">التصوير</div>  
             </div>
+
             <div class="box">
-                <img src="img/23.jpg" alt="">
-                <h3 class="title">حفل التخرج</h3>
-            </div>   
+                <img src="img/19.jpg" alt="">
+                <div class="overlay">الكعكة</div>  
+            </div>
+            
         </div>
     </section>
     
