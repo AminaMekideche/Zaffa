@@ -166,72 +166,58 @@
             </div>
         </div>
     </section>
-    
+
     <section class="review" id="review">
-        <h1 class="heading" >آراء<span>عملائنا</span></h1>
+        <div class="review-content">
 
-        <div class="review-slider swiper-container">
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide box">
-                    <div class="user">
-                        <img src="img/24.jpg" alt="">
-                        <div class="user-info">
-                            <h3>  بورحلة إيمان</h3>
-                        </div> 
-                    </div>
-                    <p>قاعة "زفّـــــة" تفوق التوقعات بكل المقاييس. من لحظة الحجز وحتى نهاية الحفل، تميزت الخدمة، الطعام،
-                         والديكور بمستويات عالية من الجودة والاحترافية، مما جعل يوم زفافي ذكرى لا تنسى.
-                    </p>
-                </div>
-
-                <div class="swiper-slide box">
-                    <div class="user">
-                        <img src="img/25.jpg" alt="">
-                        <div class="user-info">
-                            <h3> جعيجع أماني</h3>
+            <div class="reviews">
+                <h1 class="heading">آراء<span>عملائنا</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="user">
+                            <div class="user-info">
+                            <h3>بورحلة إيمان</h3>
+                            </div> 
                         </div>
+                        <p>قاعة "زفّة" أبهرتنا بتنظيمها الراقي وخدماتها الممتازة، جعلت حفلنا مثاليا.</p>
                     </div>
-                    <p>أوصي بشدة بقاعة "زفّـــــة" لأي شخص يبحث عن مكان مميز لإقامة حفل.
-                         تجربتي معهم كانت فوق التوقعات، وأنا ممتن لكل الجهود التي بذلها فريق العمل لجعل حفل زفافي يومًا لا يُنسى.</p>
-                </div>
 
-                <div class="swiper-slide box">
-                    <div class="user">
-                        <img src="img/26.jpg" alt="">
-                        <div class="user-info">
+                    <div class="box">
+                        <div class="user">
+                            <div class="user-info">
+                            <h3>جعيجع أماني</h3>
+                            </div>
+                        </div>
+                        <p>من الديكور إلى الضيافة، كل شيء في قاعة "زفّة" كان على أعلى مستوى.</p>
+                    </div>
+
+                    <div class="box">
+                        <div class="user">
+                            <div class="user-info">
                             <h3>مكيدش آمنة</h3>
+                            </div>
                         </div>
+                        <p>تجربة رائعة مع قاعة "زفّة"، اهتمام بالتفاصيل وجودة لا تضاهى.</p>
                     </div>
-                    <p> كانت تجربتي مع قاعة "زفّـــــة " ممتازة. الخدمة الاحترافية،
-                         والطعام الشهي،
-                          والديكور الفاخر جعلوا من حفل زفافي يومًا لا يُنسى. أوصي بهذه القاعة لأي شخص يبحث عن مكان مميز  .</p>
-                </div>      
+                </div>
             </div>
 
+            <div class="review-form">
+            <h1 class="heading">أضف<span>تقييمك</span></h1>
+                <form action="">
+                    <div class="inputbox">
+                        <input type="text" placeholder="الاسم">
+                        <input type="text" placeholder="البريد الالكتروني">
+                    </div>
+
+                    <textarea name="" placeholder="رسالتك" cols="30" rows="10"></textarea>
+                    <input type="submit" value="أرسل" class="btn">
+                </form>
+            </div>
         </div>
-
-
-
     </section>
 
-    <section class="contact" id="contact">
-        <h1 class="heading">تواصل <span>معنا</span></h1>
-        <form action="">
-            <div class="inputbox">
-                <input type="text" placeholder="الاسم">
-                <input type="text" placeholder="البريد الالكتروني">
-            </div>
 
-            <div class="inputbox">
-                <input type="text" placeholder="الرقم">
-                <input type="text" placeholder="الموضوع">
-            </div>
-            <textarea name="" placeholder="رسالتك"  id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="أرسل" class="btn">
-        </form>
-
-    </section>
     <section class="footer">
         <div class="box-container">
             <div class="box">

@@ -359,80 +359,96 @@ section{
   display: none !important;
 }
 
-
-.review .box{
-    border-radius: .5rem;
-    padding: 2rem;
-    background: #dd99ef;
-    position: relative;
+.review .review-content {
+  padding-top: 18px;
+  display: grid;
+  grid-template-columns: 2fr 2fr; 
+  gap: 7rem;
+  align-items: flex-start;
 }
-.review .box .fa-quote-right{
-    position: absolute;top: 2rem;
-    left: 2rem;
-    color: var(--main-color);
-    font-size: 5rem;
+.review .heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
 }
-.review .box .user{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding-bottom: 1rem;
+.review .heading span {
+  color: #ad14db;
 }
-.review .box .user img{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-    object-fit: cover;
+.review .box-container {
+  display: grid;
+  gap: 1.5rem;
 }
-.review .box .user h3{
-    font-size: 2rem;
-    color: #fff;
+.review .box {
+  background: #f9f9f9;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
 }
-.review .box .user span{
-    font-size: 1.5rem;
-    color: #eee;
+.review .box:hover {
+  transform: translateY(-8px);
 }
-.review .box p{
-    font-size: 1.8rem;
-    color: #eee;
-    padding: .5rem 0;
-    line-height: 2;
+.review .user-info h3 {
+  font-size: 1.6rem;
+  color: #444;
 }
-
-.contact form{
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
+.review .box p {
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 1.8;
+  margin-top: 0.8rem;
 }
-.contact form  .inputbox {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+.review .review-form form {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
-.contact form  .inputbox input , .contact form textarea{
-    width: 100%;
-    background: #dd99ef;
-    border-radius: .5rem;
-    padding: 1rem;
-    margin: .7rem 0;
-    font-size: 1.5rem; 
-    color: #fff;
-    text-transform: none;
+.review .review-form .inputbox {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
-.contact form  .inputbox input::placeholder ,
- .contact form textarea::placeholder{
-    color: #eee;
-    text-transform: capitalize;
- }
- .contact form  .inputbox input:focus ,
- .contact form textarea:focus{
-    background: #815965;
- }
-.contact form  .inputbox input{
-    width: 49%;
- }
-.contact form textarea{ resize: none;}
-
+.review .review-form input,
+.review .review-form textarea {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+.review .review-form input:focus,
+.review .review-form textarea:focus {
+  border-color: #ad14db;
+}
+.review .review-form textarea {
+  width: 100%;
+  resize: none;
+  min-height: 150px;
+  margin-bottom: 1.5rem;
+}
+.review .review-form .btn {
+  width: 100%;
+  padding: 1rem;
+  background: #ad14db;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.review .review-form .btn:hover {
+  background: #8e0fb4;
+}
+@media (max-width: 991px) {
+  .review .review-content {
+    grid-template-columns: 1fr; 
+  }
+}
 
 .footer{
     background: #333;
