@@ -171,7 +171,7 @@
         <div class="review-content">
 
             <div class="reviews">
-                <h1 class="heading">آراء<span>عملائنا</span></h1>
+                <h1 class="heading">آراء <span>عملائنا </span></h1>
                 <div class="box-container">
                     <div class="box">
                         <div class="user">
@@ -203,7 +203,7 @@
             </div>
 
             <div class="review-form">
-            <h1 class="heading">أضف<span>تقييمك</span></h1>
+            <h1 class="heading">أضف <span>تقييمك </span></h1>
                 <form action="">
                     <div class="inputbox">
                         <input type="text" placeholder="الاسم">

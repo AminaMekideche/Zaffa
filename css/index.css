@@ -164,15 +164,14 @@ section{
 .service .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(27rem ,1fr));
-    gap: 1.5rem;
+    gap: 3.5rem;
 }
 .service .box-container .box{
     border-radius: .5rem;
-    /*background: #dd99ef;text-align: center;padding: 2rem;*/
     background: #ffffff;
     text-align: center;
     padding: 2rem;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     color: #333;
     border: #ad14db 1px solid;
 }
@@ -371,19 +370,21 @@ section{
   font-weight: bold;
   color: #333;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 .review .heading span {
   color: #ad14db;
+  text-transform: uppercase;
 }
 .review .box-container {
   display: grid;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 .review .box {
   background: #f9f9f9;
   border-radius: 14px;
   padding: 2rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
 .review .box:hover {
@@ -403,7 +404,7 @@ section{
   background: #f9f9f9;
   padding: 2rem;
   border-radius: 14px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 .review .review-form .inputbox {
   display: flex;
@@ -444,6 +445,7 @@ section{
 .review .review-form .btn:hover {
   background: #8e0fb4;
 }
+
 @media (max-width: 991px) {
   .review .review-content {
     grid-template-columns: 1fr; 
@@ -469,9 +471,6 @@ section{
     padding: 1rem 0;
     color: #eee;
 }
-
-
-
 .footer .box-container .box a i{
     padding-right: .5rem;
     color: var(--main-color);
