@@ -19,10 +19,10 @@
         <nav class="navbar">
             <a href="#home">الصفحة الرئيسية</a>
             <a href="#about">تعرف عنا</a>
-            <a href="#service">الخدمات</a>
-            <a href="#gallery">المعرض</a>
+            <a href="#service">خدماتنا</a>
+            <a href="#gallery">معرضنا</a>
             <a href="#review">تقييماتنا</a>
-            <a href="#contact">تواصل معنا</a>
+            <a href="#review">احجز الآن</a>
         </nav>
         <div id="menu-bars" class="fas fa-bars"></div>
     </header>
@@ -83,17 +83,17 @@
     </section>
 
     <div id="videoModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <video controls>
-        <source src="img/zaffavideo.mp4" type="video/mp4">
-        متصفحك لا يدعم تشغيل الفيديو
-        </video>
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <video controls>
+            <source src="img/zaffavideo.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو
+            </video>
+        </div>
     </div>
-</div>
 
     <section class="service" id="service"> 
-        <h1 class="heading">خدماتنا<span> المتوفرة</span></h1>
+        <h1 class="heading">خدمات<span>نا</span></h1>
         <div class="box-container">
             <div class="box">
                 <i class="fas fa-utensils"></i>

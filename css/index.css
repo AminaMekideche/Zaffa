@@ -77,7 +77,6 @@ section{
     background: var(--main-color);
 }
 
-
 .header {
     position: fixed;
     top: 0;
@@ -88,8 +87,8 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.6rem 9%;
-    box-shadow: 0 .5rem 2rem rgb(163, 162, 162);
+    padding: 1.4rem 9%;
+    box-shadow: 0 .2rem .8rem rgb(163, 162, 162);
 }
 
 
@@ -137,13 +136,13 @@ section{
 
 .home .content{
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 4.6rem;
     margin: 2rem auto;
     max-width: 70rem;
 }
 .home .content h3{
     color: #000;
-    font-size: 3rem;
+    font-size: 2.9rem;
     text-transform: uppercase;
 }
 .home .content h3 span{
