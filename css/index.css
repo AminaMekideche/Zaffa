@@ -102,15 +102,35 @@ section{
     color: var(--main-color);
 }
 
-.header .navbar a {
-    font-size: 1.8rem;
-    color: #000;
-    margin-right: 2rem;
-    
+.navbar .nav-link {
+    margin-left: 1.5rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.header .navbar a:hover {
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
     color: var(--main-color);
+    font-weight: bold;
+}
+
+.navbar .btn-book {
+margin-left: 2rem;
+padding: 0.6rem 1.4rem;
+border: 2px solid var(--main-color);
+background: transparent;
+color: var(--main-color);
+font-size: 1.6rem;
+border-radius: 25px;
+text-decoration: none;
+}
+
+.navbar .btn-book:hover {
+    background: var(--main-color);
+    color: #fff;
+    font-weight: bold;
 }
 
 #menu-bars {

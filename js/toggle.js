@@ -7,6 +7,26 @@ menu.onclick = () => {
   navbar.classList.toggle('active');
 };
 
+/* Change the colors for sections */
+const sections = document.querySelectorAll("section[id]");
+const navLinks = document.querySelectorAll(".navbar .nav-link");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+
+sections.forEach((section) => {
+const sectionTop = section.offsetTop - 100; // تعديل للـ header height
+const sectionHeight = section.clientHeight;
+});
+
+navLinks.forEach((link) => {
+link.classList.remove("active");
+if (current && link.getAttribute("href").includes(current)) {
+link.classList.add("active");
+}
+});
+});
+
 
 /* Theme Toggler */
 let themetoggler = document.querySelector('.theme-toggler');

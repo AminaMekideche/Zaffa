@@ -17,12 +17,12 @@
     <header class="header">
         <a href="#" class="logo">زفّـــــة<span>.</span></a>
         <nav class="navbar">
-            <a href="#home">الصفحة الرئيسية</a>
-            <a href="#about">تعرف عنا</a>
-            <a href="#service">خدماتنا</a>
-            <a href="#gallery">معرضنا</a>
-            <a href="#review">تقييماتنا</a>
-            <a href="#review">احجز الآن</a>
+            <a href="#home" class="nav-link">الصفحة الرئيسية</a>
+            <a href="#about" class="nav-link">تعرف عنا</a>
+            <a href="#service" class="nav-link">خدماتنا</a>
+            <a href="#gallery" class="nav-link">معرضنا</a>
+            <a href="#review" class="nav-link">تقييماتنا</a>
+            <a href="form.php" class="btn-book">احجز الآن</a>
         </nav>
         <div id="menu-bars" class="fas fa-bars"></div>
     </header>
