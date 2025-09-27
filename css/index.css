@@ -363,6 +363,7 @@ section{
   grid-template-columns: 2fr 2fr; 
   gap: 7rem;
   align-items: flex-start;
+  padding-bottom: 60px;
 }
 .review .heading {
   font-size: 2.5rem;
@@ -451,96 +452,73 @@ section{
   }
 }
 
-.footer{
+.footer {
     background: #333;
+    padding-top: 33px;
+    padding-bottom: 33px;
+
 }
-.footer .box-container{
+.footer .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(25rem ,1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    align-items: flex-start;
 }
-.footer .box-container .box h3{
-    font-size: 2.5rem;
-    padding: 1rem 0;
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
     color: #fff;
 }
-.footer .box-container .box a{
+.footer .box-container .box a {
     display: block;
-    font-size: 1.5rem;
-    padding: 1rem 0;
+    font-size: 1.7rem;
+    padding: .8rem 0;
     color: #eee;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-transform: lowercase;
 }
-.footer .box-container .box a i{
-    padding-right: .5rem;
+.footer .box-container .box a i {
+    margin-left: 0.5rem;
     color: var(--main-color);
 }
-.footer .box-container .box a:hover i{
-    padding-right: 1.5rem;
-    color: #fff
-}
-
-.footer .credit{
-    text-align: center;
-    border-top: .1rem solid #222;
+.footer .box-container .box a:hover i {
     color: #fff;
-    padding: 2rem;
-    padding-top: 2.5rem;
-    margin-top: 1rem;
-    font-size: 2rem;
 }
-
-.footer .credit span{
-    color: var(--main-color);
-}
-
-.theme-toggler{
-    position: fixed;
-    top: 10rem;right: -20rem;
-    background: #dd99ef;
-    z-index: 1000;
-    width: 20rem;
-    text-align: center;
-}
-.theme-toggler.active{
-    right: 0;
-}
-
-
-
-
-.theme-toggler h3{
-    color: #fff;
-    padding: 1rem 0;
-    font-size: 2rem;
-}
-.theme-toggler .buttons{
+.footer .social-icons {
+    padding-right: 30px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 2rem;
+    margin-top: .3rem;
 }
-.theme-toggler .buttons .theme-btn{
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    cursor: pointer;
+.footer .social-icons a {
+    font-size: 6rem;
+    color: var(--main-color);
+    transition: color 0.3s ease;
 }
-.theme-toggler .toggle-btn{
-    position: absolute;
-    top: 0;left: -5.9rem;
-    padding: 1.3rem 1.5rem;
-    background: #dd99ef;
-    cursor: pointer;
-}
-.theme-toggler .toggle-btn i{
+.footer .social-icons a:hover {
     color: #fff;
-    font-size: 3rem;
-    animation: spin 4s linear infinite;
+}
+.footer .map-box iframe {
+    border-radius: 10px;
+    margin-top: .8rem;
 }
 
+.credit {
+    text-align: center;
+    border-top: 1px solid #fff;
+    background: #fff;
+    color: #222;
+    padding: .8rem .8rem;
+    font-size: 1.6rem;
+}
+.credit a {
+    color: var(--main-color);
+    font-weight: bold;
+    text-transform: lowercase;
+}
 
-@keyframes spin {
+@keyframes a {
     0%{
         transform: rotate(360deg);
     }

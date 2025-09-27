@@ -220,47 +220,35 @@
 
     <section class="footer">
         <div class="box-container">
-            <div class="box">
-                <h3>عناصر الموقع</h3>
-                <a href="#home"><i class="fas fa-arrow-left">   </i>     الصفحة الرئيسية           </a>
-                <a href="#service"><i class="fas fa-arrow-left">    </i>        الخدمات            </a>
-                <a href="#about"><i class="fas fa-arrow-left">    </i>      تعرف عنا         </a>
-                <a href="#gallery"><i class="fas fa-arrow-left">   </i>        صورنا          </a>
-                <a href="#price"><i class="fas fa-arrow-left">  </i>        العروض            </a>
-                <a href="#review"><i class="fas fa-arrow-left">  </i>        التقيمات            </a>
-                <a href="#contact"><i class="fas fa-arrow-left">  </i>          تواصل معنا              </a>
-            </div>
-
-            <div class="box">
-                <h3> اتصل بنا</h3>
-                <a href="#" class="f" ><i class="fas fa-phone" >     </i>     +325-369-123     </a>
-                <a href="#" class="f"><i class="fas fa-phone">   </i>    +000-000-000                </a>
-                <a href="#" class="f"><i class="fas fa-envelope">    </i>       amna.mekideche@gmail.com          </a>
-                <a href="#" class="f"><i class="fas fa-map-marker-alt">  </i>       الجزائر-الجزائر     </a>
-            </div>
-            <div class="box">
-                <h3> تابعنا </h3>
-                <a href="#"><i class="fa-brands fa-facebook-f">         </i>   فيسبوك            </a>
-                <a href="#"><i class="fa-brands fa-twitter" >      </i>         تويتر             </a>
-                <a href="#"><i class="fa-brands fa-instagram"> </i>         انستقرام             </a>
-                
+            <div class="contact-box box">
+                <h3>تواصل معنا</h3>
+                <a href="#" class="f"><i class="fas fa-phone" ></i> 325-369-123+ </a>
+                <a href="#" class="f"><i class="fas fa-envelope"></i> info@zaffa.com </a>
+          
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
             </div>
 
 
+            <div class="box map-box"> 
+                <h3>موقعنا</h3> 
+                <a href="#" class="f"><i class="fas fa-map-marker-alt"></i> الجزائر، شارع الحرية، رقم 25 </a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12838.707!2d3.0506!3d36.7538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzY!5e0!3m2!1sar!2sdz!4v00000000000" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe> 
+            </div>
         </div>
-        <div class="credit">تم الانشاء من طرف  <span> amy   </span> جميع الحقوق محفوظة</div>
     </section>
 
+    <div class="credit">
+        . Copyright 2024 –
+        <a href="https://github.com/AminaMekideche">amy.</a>
+        All Rights Reserved © 
+    </div>
 
-
-    <!<div  class="theme-toggler"> 
+    <div  class="theme-toggler"> 
         <div class="toggle-btn">
-            <i  class="fas fa-cog"></i>
-        </div>
-        <h3>إختر لون</h3>
-        <div class="buttons">
-            <div class="theme-btn" style="background-color: #ad14db;"></div>
-
         </div>
     </div>
 
