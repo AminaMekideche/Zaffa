@@ -91,7 +91,6 @@ section{
     box-shadow: 0 .2rem .8rem rgb(163, 162, 162);
 }
 
-
 .header .logo {
     font-weight: bolder;
     color: #000;
@@ -104,7 +103,7 @@ section{
 
 .navbar .nav-link {
     margin-left: 1.5rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color: #333;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -117,14 +116,14 @@ section{
 }
 
 .navbar .btn-book {
-margin-left: 2rem;
-padding: 0.6rem 1.4rem;
-border: 2px solid var(--main-color);
-background: transparent;
-color: var(--main-color);
-font-size: 1.6rem;
-border-radius: 25px;
-text-decoration: none;
+    margin-left: 2rem;
+    padding: 0.6rem 1.4rem;
+    border: 2px solid var(--main-color);
+    background: transparent;
+    color: var(--main-color);
+    font-size: 1.6rem;
+    border-radius: 25px;
+    text-decoration: none;
 }
 
 .navbar .btn-book:hover {
@@ -152,7 +151,6 @@ text-decoration: none;
         padding: 2rem;
     }
 }
-
 
 .home .content{
     text-align: center;

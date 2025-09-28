@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
 
+:root {
+    --main-color: #ad14db;
+}
+
 * {
   font-family: "Tajawal", sans-serif;
     margin: 0;
@@ -12,8 +16,6 @@
     transition: .2s linear;
 }
 
-
-
 html {
   font-size: 62.5%;
   overflow: hidden;
@@ -22,15 +24,14 @@ html {
   overflow-y: auto;
 }
 
-
 body {
-  font-family: "Tajawal", sans-serif;
+  background: #fff;
+  overflow-y: auto;
 }
 
 html::-webkit-scrollbar{
   width: 1rem;
 }
-
 
 html::-webkit-scrollbar-track {
   background: #eee;
@@ -51,22 +52,23 @@ section{
 
 .heading{
   text-align: center;
-  padding-bottom: 2rem;
+  padding-top: 2.2rem;
+  padding-bottom: 1rem;
   color: #000;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .heading span{
   color: var(--main-color);
   text-transform: uppercase;
 }
 .btn{
-  margin-top: 1rem;
+ margin-top: 1rem;
   display: inline-block;
   padding: .8rem 3rem;
   font-size: 1.7rem;
   border-radius: .5rem;
-  background: #CEA2AB;
+  background: #ad14db;
   color: #fff;
   cursor: pointer;
   font-weight: 600;
@@ -74,7 +76,6 @@ section{
 .btn:hover{
   background: var(--main-color);
 }
-
 
 .header {
   position: fixed;
@@ -86,10 +87,9 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 9%;
-    box-shadow: 0 .5rem 2rem rgb(163, 162, 162);
+  padding: 1.4rem 9%;
+  box-shadow: 0 .2rem .8rem rgb(163, 162, 162);
 }
-
 
 .header .logo {
   font-weight: bolder;
@@ -101,22 +101,36 @@ section{
   color: var(--main-color);
 }
 
-.header .navbar a {
-  font-size: 2rem;
-  color: #000;
-  margin-right: 2rem;
-  
+.navbar .nav-link {
+    margin-left: 1.5rem;
+    font-size: 1.6rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.header .navbar a:hover {
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.navbar .btn-book {
+  margin-left: 2rem;
+  padding: 0.6rem 1.4rem;
   color: var(--main-color);
+  font-size: 1.6rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+
 }
 
 #menu-bars {
-  font-size: 3rem;
-  color: #000;
-  cursor: pointer;
-  display: none;
+    font-size: 3rem;
+    color: #000;
+    cursor: pointer;
+    display: none;
 }
 
 @media (max-width: 991px) {
@@ -131,17 +145,6 @@ section{
       padding: 2rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .formbold-main-wrapper {
   display: flex;

@@ -8,25 +8,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">     
     <link rel="stylesheet" href="css/form.css">
-    <title>زفّة.| طلب السعر مجا</title>
+    <title>زفّة. | احجز الآن</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body dir="rtl">
-
-<header class="header">
+ <header class="header">
         <a href="#" class="logo">زفّـــــة<span>.</span></a>
         <nav class="navbar">
-            <a href="index.php#home" class="act">الصفحة الرئيسية</a>
-            <a href="index.php#about">تعرف عنا</a>
-            <a href="index.php#service">الخدمات</a>
-            <a href="index.php#gallery">الصور</a>
-            <a href="index.php#price">عروضنا</a>
-            <a href="index.php#review">تقييماتنا</a>
-            <a href="index.php#contact">تواصل معنا</a>
+            <a href="index.php##home" class="nav-link">الصفحة الرئيسية</a>
+            <a href="index.php#about" class="nav-link">تعرف عنا</a>
+            <a href="index.php#service" class="nav-link">خدماتنا</a>
+            <a href="index.php#gallery" class="nav-link">معرضنا</a>
+            <a href="index.php#review" class="nav-link">تقييماتنا</a>
+            <a href="form.php" class="btn-book">احجز الآن</a>
         </nav>
         <div id="menu-bars" class="fas fa-bars"></div>
     </header>
-
-
 
     <div class="formbold-main-wrapper">
         <div class="formbold-form-wrapper">
