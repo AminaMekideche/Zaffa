@@ -14,17 +14,21 @@ const navLinks = document.querySelectorAll(".navbar .nav-link");
 window.addEventListener("scroll", () => {
   let current = "";
 
-sections.forEach((section) => {
-const sectionTop = section.offsetTop - 100; // تعديل للـ header height
-const sectionHeight = section.clientHeight;
-});
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop - 120;
+    const sectionHeight = section.clientHeight;
 
-navLinks.forEach((link) => {
-link.classList.remove("active");
-if (current && link.getAttribute("href").includes(current)) {
-link.classList.add("active");
-}
-});
+    if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach((link) => {
+    link.classList.remove("active");
+    if (current && link.getAttribute("href").includes(current)) {
+      link.classList.add("active");
+    }
+  });
 });
 
 
