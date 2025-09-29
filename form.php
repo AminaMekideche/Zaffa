@@ -127,7 +127,7 @@
           </div>
           <div class="formbold-form-step-2">
             <div class="food-selection">
-                <label class="formbold-form-label">اختر الأطباق التي ترغب في تقديمها في مناسبتك</label>
+                <label class="formbold-form-label">اضغظ على صور الأطباق التي ترغب في تقديمها في مناسبتك</label>
         
                 <div class="food-category">
                     <h3 class="food-category-title">الأطباق الرئيسية</h3>
@@ -341,9 +341,9 @@
         <div class="terms-message" style="display: none;">
             *يخضع إلغاء الحجوزات لشروط محددة، وقد تطبق رسوم إلغاء محددة.
             <br>
-            *يحترم الموقع خصوصية مستخدميه ويحمي بياناتهم الشخصية.
+            *السعر المعروض تقديري فقط، وقابل للتغيير بعد مراجعة الطلب والتأكد من التفاصيل.
             <br>
-            *يعتبر استخدام الموقع موافقة مسبقة على جميع الشروط والأحكام الواردة هنا.
+            *يحترم الموقع خصوصية مستخدميه ويحمي بياناتهم الشخصية.
         </div>
     </div>
 </div>
@@ -361,6 +361,35 @@
       </div>
     </div>
 
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="contact-box box">
+                <h3>تواصل معنا</h3>
+                <a href="#" class="f"><i class="fas fa-phone" ></i> 325-369-123+ </a>
+                <a href="#" class="f"><i class="fas fa-envelope"></i> info@zaffa.com </a>
+          
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+
+            <div class="box map-box"> 
+                <h3>موقعنا</h3> 
+                <a href="#" class="f"><i class="fas fa-map-marker-alt"></i> الجزائر، شارع الحرية، رقم 25 </a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12838.707!2d3.0506!3d36.7538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzY!5e0!3m2!1sar!2sdz!4v00000000000" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe> 
+            </div>
+        </div>
+    </section>
+
+    <div class="credit">
+        . Copyright 2024 –
+        <a href="https://github.com/AminaMekideche">amy.</a>
+        All Rights Reserved © 
+    </div>
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -429,7 +458,7 @@
                 stepFour.classList.add('active');
 
                 formBackBtn.classList.remove('active');
-                formSubmitBtn.textContent = 'ارسال';
+                formSubmitBtn.textContent = 'عرض السعر التقريبي';
             } else if (stepMenuFour.classList.contains('active')) {
                 document.querySelector('form').submit();
             }

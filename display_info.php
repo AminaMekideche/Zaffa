@@ -29,7 +29,7 @@
     </header>
 
 
-    <div class="formbold-main-wrapper">
+    <div class="formbold-main-wrapper wrapper">
         <div class="formbold-form-wrapper">
         <form action="index.php" method="POST">
 
@@ -78,30 +78,43 @@
                     echo "<p>البريد الإلكتروني: " . htmlspecialchars($row['email']) . "</p>";
 
                     $invitees_count = (int)$row['invitees_count'];
-                    $main_dishes = explode(',', $row['main_dishes']);
-                    $side_dishes = explode(',', $row['side_dishes']);
-                    $salads = explode(',', $row['salads']);
-                    $drinks = explode(',', $row['drinks']);
-                    $desserts = explode(',', $row['desserts']);
+
+                    $main_dishes = array_filter(explode(',', $row['main_dishes']));
+                    $side_dishes = array_filter(explode(',', $row['side_dishes']));
+                    $salads = array_filter(explode(',', $row['salads']));
+                    $drinks = array_filter(explode(',', $row['drinks']));
+                    $desserts = array_filter(explode(',', $row['desserts']));
 
                     $total_dishes = count($main_dishes) + count($side_dishes) + count($salads) + count($drinks) + count($desserts);
 
-                    if ($total_dishes >= 1 && $total_dishes <= 4) {
-                        $base_price = 80000;
-                    } elseif ($total_dishes >= 4 && $total_dishes <= 6) {
-                        $base_price = 90000;
-                    } else {
-                        $base_price = 100000;
+                    $base_price = 80000;
+                    $price_per_guest = 1000; 
+
+                    $extra_price = 0;
+                    $needs = !empty($row['needs']) ? explode(',', $row['needs']) : [];
+
+                    if (in_array("DJ", $needs)) {
+                        $extra_price += 20000;
+                    }
+                    if (in_array("Photographer", $needs)) {
+                        $extra_price += 30000;
+                    }
+                    if (in_array("فريق منع التصوير", $needs)) {
+                        $extra_price += 15000;
+                    }
+                    if (in_array("منظمين", $needs)) {
+                        $extra_price += 10000;
                     }
 
-                    $total_price = $base_price + ($invitees_count * 100);
+                    if ($invitees_count > 0 && $total_dishes > 0) {
+                        $total_price = $base_price + ($invitees_count * $price_per_guest) + $extra_price;
 
-                    echo "<br><h1>السعر الإجمالي: " . htmlspecialchars(number_format($total_price, 0)) . " دج</h1>";
-                }
-            } else {
-                echo "0 results";
-            }
+                        echo "<br><h1>السعر الإجمالي: " . htmlspecialchars(number_format($total_price, 0)) . " دج</h1>";
+                    } else {
+                        echo "<br><h3 style='color:red;'> يرجى إدخال عدد المدعوين واختيار الأطباق لحساب السعر.</h3>";
+                    }
 
+        }}
             $conn->close();
             ?>
         
@@ -117,6 +130,37 @@
             </form>
     </div>
 </div>
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="contact-box box">
+                <h3>تواصل معنا</h3>
+                <a href="#" class="f"><i class="fas fa-phone" ></i> 325-369-123+ </a>
+                <a href="#" class="f"><i class="fas fa-envelope"></i> info@zaffa.com </a>
+          
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+
+            <div class="box map-box"> 
+                <h3>موقعنا</h3> 
+                <a href="#" class="f"><i class="fas fa-map-marker-alt"></i> الجزائر، شارع الحرية، رقم 25 </a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12838.707!2d3.0506!3d36.7538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzY!5e0!3m2!1sar!2sdz!4v00000000000" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe> 
+            </div>
+        </div>
+    </section>
+
+    <div class="credit">
+        . Copyright 2024 –
+        <a href="https://github.com/AminaMekideche">amy.</a>
+        All Rights Reserved © 
+    </div>
+
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {

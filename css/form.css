@@ -204,6 +204,11 @@ section{
   padding: 60px;
 }
 
+.formbold-main-wrapper.wrapper {
+  display: flex;
+  padding-top: 13rem;
+}
+
 .formbold-form-wrapper {
   margin: 0 auto;
   max-width: 660px;
@@ -286,6 +291,7 @@ section{
   color: #333;
   outline: none;
   resize: none;
+  text-transform: lowercase;
 }
 .formbold-form-input:focus {
   border-color: #ad14db;
@@ -515,7 +521,7 @@ section{
 
 p {
   margin-bottom: 7px;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 24px;
   color: #121212;
 }
@@ -523,18 +529,15 @@ p {
 h3 {
   color: #ad14db;
   margin-bottom: 7px;
-
-  
+  font-size: 15px;
 }
-
 
 h2 {
   color: #000000;
   margin-bottom: 7px;
   text-align: center;
-  
+  font-size: 19px;
 }
-
 
 h1 {
   color: #eabb00;
@@ -545,4 +548,78 @@ h1 {
 
 label{
   font-size: 16px;
+}
+
+
+
+.footer {
+    background: #333;
+    padding-top: 33px;
+    padding-bottom: 33px;
+
+}
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    align-items: flex-start;
+}
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.7rem;
+    padding: .8rem 0;
+    color: #eee;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-transform: lowercase;
+}
+.footer .box-container .box a i {
+    margin-left: 0.5rem;
+    color: var(--main-color);
+}
+.footer .box-container .box a:hover i {
+    color: #fff;
+}
+.footer .social-icons {
+    padding-right: 30px;
+    display: flex;
+    gap: 2rem;
+    margin-top: .3rem;
+}
+.footer .social-icons a {
+    font-size: 6rem;
+    color: var(--main-color);
+    transition: color 0.3s ease;
+}
+.footer .social-icons a:hover {
+    color: #fff;
+}
+.footer .map-box iframe {
+    border-radius: 10px;
+    margin-top: .8rem;
+}
+
+.credit {
+    text-align: center;
+    border-top: 1px solid #fff;
+    background: #fff;
+    color: #222;
+    padding: .8rem .8rem;
+    font-size: 1.6rem;
+}
+.credit a {
+    color: var(--main-color);
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+@keyframes a {
+    0%{
+        transform: rotate(360deg);
+    }
 }
