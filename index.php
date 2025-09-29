@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0028)http://localhost:1234/Zaffa/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">     
+    <link href="./index_files/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./index_files/css2" rel="stylesheet">     
     <title>زفّة. | الصفحة الرئيسية</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type="image/png" href="img/logo.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./index_files/all.min.css">
+    <link rel="stylesheet" href="./index_files/index.css">
+    <link rel="icon" type="image/png" href="http://localhost:1234/Zaffa/img/logo.png">
+    <link rel="stylesheet" href="./index_files/swiper-bundle.min.css">
 </head>
 <body dir="rtl">
     <header class="header">
-        <a href="#" class="logo">زفّـــــة<span>.</span></a>
+        <a href="http://localhost:1234/Zaffa/index.php" class="logo">زفّـــــة<span>.</span></a>
         <nav class="navbar">
-            <a href="#home" class="nav-link">الصفحة الرئيسية</a>
-            <a href="#about" class="nav-link">تعرف عنا</a>
-            <a href="#service" class="nav-link">خدماتنا</a>
-            <a href="#gallery" class="nav-link">معرضنا</a>
-            <a href="#review" class="nav-link">تقييماتنا</a>
-            <a href="form.php" class="btn-book">احجز الآن</a>
+            <a href="http://localhost:1234/Zaffa/#home" class="nav-link">الصفحة الرئيسية</a>
+            <a href="http://localhost:1234/Zaffa/#about" class="nav-link">تعرف عنا</a>
+            <a href="http://localhost:1234/Zaffa/#service" class="nav-link">خدماتنا</a>
+            <a href="http://localhost:1234/Zaffa/#gallery" class="nav-link">معرضنا</a>
+            <a href="http://localhost:1234/Zaffa/#review" class="nav-link">تقييماتنا</a>
+            <a href="http://localhost:1234/Zaffa/form.php" class="btn-book">احجز الآن</a>
         </nav>
         <div id="menu-bars" class="fas fa-bars"></div>
     </header>
@@ -31,27 +31,27 @@
         <div class="content">
             <h3>زفّـــــة <span>جزء من أفراحكم</span></h3>
         </div>
-        <div class="swiper home-slider">
-            <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="img/img4.jpg" alt=""> </div>
-                <div class="swiper-slide"><img src="img/img3.jpg" alt=""> </div>
-                <div class="swiper-slide"><img src="img/img1.jpg" alt=""> </div>
-                <div class="swiper-slide"><img src="img/img7.jpg" alt=""> </div>
-                <div class="swiper-slide"><img src="img/img22.jpg" alt=""> </div>
-                <div class="swiper-slide"><img src="img/img5.jpg" alt=""> </div>
-                <div class="swiper-slide"><img src="img/img6.jpg" alt=""> </div>
-                <div class="swiper-slide"><img src="img/img8.jpg" alt=""> </div>
-            </div>
-        </div>
+        <div class="swiper home-slider swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-rtl swiper-watch-progress">
+            <div class="swiper-wrapper" id="swiper-wrapper-da1b92b65a8f467d" aria-live="off" style="cursor: grab; transition-duration: 0ms; transform: translate3d(1301px, 0px, 0px); transition-delay: 0ms;">
+            
+                
+                
+                
+                
+                
+                
+                
+            <div class="swiper-slide" role="group" aria-label="3 / 8" data-swiper-slide-index="2" style="transition-duration: 0ms; transform: translate3d(0px, 0px, -1200px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -11;"><img src="./index_files/img1.jpg" alt=""> <div class="swiper-slide-shadow-left swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right swiper-slide-shadow-coverflow" style="opacity: 12; transition-duration: 0ms;"></div></div><div class="swiper-slide" role="group" aria-label="4 / 8" data-swiper-slide-index="3" style="transition-duration: 0ms; transform: translate3d(0px, 0px, -1000px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -9;"><img src="./index_files/img7.jpg" alt=""> <div class="swiper-slide-shadow-left swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right swiper-slide-shadow-coverflow" style="opacity: 10; transition-duration: 0ms;"></div></div><div class="swiper-slide" role="group" aria-label="5 / 8" data-swiper-slide-index="4" style="transition-duration: 0ms; transform: translate3d(0px, 0px, -800px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -7;"><img src="./index_files/img22.jpg" alt=""> <div class="swiper-slide-shadow-left swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right swiper-slide-shadow-coverflow" style="opacity: 8; transition-duration: 0ms;"></div></div><div class="swiper-slide" role="group" aria-label="6 / 8" data-swiper-slide-index="5" style="transition-duration: 0ms; transform: translate3d(0px, 0px, -600px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -5;"><img src="./index_files/img5.jpg" alt=""> <div class="swiper-slide-shadow-left swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right swiper-slide-shadow-coverflow" style="opacity: 6; transition-duration: 0ms;"></div></div><div class="swiper-slide" role="group" aria-label="7 / 8" data-swiper-slide-index="6" style="transition-duration: 0ms; transform: translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -3;"><img src="./index_files/img6.jpg" alt=""> <div class="swiper-slide-shadow-left swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right swiper-slide-shadow-coverflow" style="opacity: 4; transition-duration: 0ms;"></div></div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="8 / 8" data-swiper-slide-index="7" style="transition-duration: 0ms; transform: translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -1;"><img src="./index_files/img8.jpg" alt=""> <div class="swiper-slide-shadow-left swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right swiper-slide-shadow-coverflow" style="opacity: 2; transition-duration: 0ms;"></div></div><div class="swiper-slide swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 8" data-swiper-slide-index="0" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1); z-index: 1;"><img src="./index_files/img4.jpg" alt=""> <div class="swiper-slide-shadow-left swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div></div><div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 8" data-swiper-slide-index="1" style="transition-duration: 0ms; transform: translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -1;"><img src="./index_files/img3.jpg" alt=""> <div class="swiper-slide-shadow-left swiper-slide-shadow-coverflow" style="opacity: 2; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right swiper-slide-shadow-coverflow" style="opacity: 0; transition-duration: 0ms;"></div></div></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
     </section>
 
 
     <section class="about" id="about">
         <h1 class="heading">تعرف <span>عنا</span></h1>
-        <div class="row" >
-            <div class="image" ><img src="img/abouut.jpg" alt=""></div>
+        <div class="row">
+            <div class="image"><img src="./index_files/abouut.jpg" alt=""></div>
             <div class="content">
-                <h3 >سنقدم لك احتفالًا خاصًا جدًا.</h3>
+                <h3>سنقدم لك احتفالًا خاصًا جدًا.</h3>
                 <p>
                     اكتشف الجمال في كل لحظة مع موقعنا لتخطيط الأعراس! ابدأ اليوم بتحقيق حلمك لإنشاء حفل زفاف يترك انطباعًا يدوم للأبد.
                 </p>
@@ -75,8 +75,8 @@
                 </div>
                 
                 <div class="btns">
-                    <a href="#!" class="btn" id="openVideo">شاهد فيديو القاعة</a>
-                    <a href="form.php" class="btn">احجز الآن</a>
+                    <a href="http://localhost:1234/Zaffa/#!" class="btn" id="openVideo">شاهد فيديو القاعة</a>
+                    <a href="http://localhost:1234/Zaffa/form.php" class="btn">احجز الآن</a>
                 </div>
             </div>
         </div>
@@ -84,8 +84,8 @@
 
     <div id="videoModal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
-            <video controls>
+            <span class="close">×</span>
+            <video controls="">
             <source src="img/zaffavideo.mp4" type="video/mp4">
             متصفحك لا يدعم تشغيل الفيديو
             </video>
@@ -129,7 +129,7 @@
     </section>
    
     <section class="gallery" id="gallery">
-        <h1 class="heading" >معرض<span>نا</span></h1>
+        <h1 class="heading">معرض<span>نا</span></h1>
         <div class="filter-buttons">
             <button class="filter-btn active" data-filter="all">الكل</button>
             <button class="filter-btn" data-filter="deco">الديكور</button>
@@ -138,31 +138,31 @@
         </div>
         <div class="box-container">
             <div class="box all moments">
-                <img src="img/gl1.jpg" alt="">
+                <img src="./index_files/gl1.jpg" alt="">
             </div>
             <div class="box all food">
-                <img src="img/gl2.jpg" alt="">
+                <img src="./index_files/gl2.jpg" alt="">
             </div>
             <div class="box all deco">
-                <img src="img/gl3.jpg" alt="">
+                <img src="./index_files/gl3.jpg" alt="">
             </div>
             <div class="box all moments">
-                <img src="img/gl4.jpg" alt="">
+                <img src="./index_files/gl4.jpg" alt="">
             </div>
             <div class="box all food">
-                <img src="img/gl5.jpg" alt="">
+                <img src="./index_files/gl5.jpg" alt="">
             </div>
             <div class="box all deco">
-                <img src="img/gl6.jpg" alt="">
+                <img src="./index_files/gl6.jpg" alt="">
             </div>
             <div class="box all moments">
-                <img src="img/gl7.jpg" alt="">
+                <img src="./index_files/gl7.jpg" alt="">
             </div>
             <div class="box all food">
-                <img src="img/gl8.jpg" alt="">
+                <img src="./index_files/gl8.jpg" alt="">
             </div>
             <div class="box all deco">
-                <img src="img/gl9.jpg" alt="">
+                <img src="./index_files/gl9.jpg" alt="">
             </div>
         </div>
     </section>
@@ -204,7 +204,7 @@
 
             <div class="review-form">
             <h1 class="heading">أضف <span>تقييمك </span></h1>
-                <form action="">
+                <form action="http://localhost:1234/Zaffa/">
                     <div class="inputbox">
                         <input type="text" placeholder="الاسم">
                         <input type="text" placeholder="البريد الالكتروني">
@@ -222,20 +222,20 @@
         <div class="box-container">
             <div class="contact-box box">
                 <h3>تواصل معنا</h3>
-                <a href="#" class="f"><i class="fas fa-phone" ></i> 325-369-123+ </a>
-                <a href="#" class="f"><i class="fas fa-envelope"></i> info@zaffa.com </a>
+                <a href="http://localhost:1234/Zaffa/#" class="f"><i class="fas fa-phone"></i> 325-369-123+ </a>
+                <a href="http://localhost:1234/Zaffa/#" class="f"><i class="fas fa-envelope"></i> info@zaffa.com </a>
           
                 <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://localhost:1234/Zaffa/#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="http://localhost:1234/Zaffa/#"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
 
 
             <div class="box map-box"> 
                 <h3>موقعنا</h3> 
-                <a href="#" class="f"><i class="fas fa-map-marker-alt"></i> الجزائر، شارع الحرية، رقم 25 </a>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12838.707!2d3.0506!3d36.7538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzY!5e0!3m2!1sar!2sdz!4v00000000000" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                <a href="http://localhost:1234/Zaffa/#" class="f"><i class="fas fa-map-marker-alt"></i> الجزائر، شارع الحرية، رقم 25 </a>
+                <iframe src="./index_files/embed.html" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
                 </iframe> 
             </div>
         </div>
@@ -247,19 +247,19 @@
         All Rights Reserved © 
     </div>
 
-    <div  class="theme-toggler"> 
+    <div class="theme-toggler"> 
         <div class="toggle-btn">
         </div>
     </div>
 
 
     <div class="floating-action-button">
-        <a href="form.php" class="btn">احجز الآن</a>
+        <a href="http://localhost:1234/Zaffa/form.php" class="btn">احجز الآن</a>
     </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/toggle.js"></script>
-</body>
-</html>
+    <script src="./index_files/swiper-bundle.min.js.télécharger"></script>
+    <script src="./index_files/toggle.js.télécharger"></script>
+
+</body></html>
