@@ -1,7 +1,7 @@
 # Zaffa – Wedding Hall Booking System
 
 Zaffa is a **wedding hall booking web application** built with **PHP**, **MySQL**, **HTML**, **CSS**, and **JavaScript**.
-It allows users to explore available halls, select event details, and confirm reservations online with an easy-to-use interface.
+It allows users to select event details, and confirm reservations online with an easy-to-use interface.
 
 ---
 
