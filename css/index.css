@@ -15,12 +15,15 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
-
 html {
     font-size: 62.5%;
     overflow: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
+    overflow-y: auto;
+}
+body {
+    background: #fff;
     overflow-y: auto;
 }
 html::-webkit-scrollbar{
@@ -36,10 +39,7 @@ html::-webkit-scrollbar-thumb {
     border-radius: 5rem;
 }
 
-body {
-    background: #fff;
-    overflow-y: auto;
-}
+
 section{
     padding: 2rem 9%;
 }
@@ -49,12 +49,10 @@ section{
     padding-top: 2.2rem;
     padding-bottom: 1rem;
     color: #000;
-    text-transform: uppercase;
     font-size: 3.5rem;
 }
 .heading span{
     color: var(--main-color);
-    text-transform: uppercase;
 }
 .btn{
     margin-top: 1rem;
@@ -161,11 +159,9 @@ section{
 .home .content h3{
     color: #000;
     font-size: 2.9rem;
-    text-transform: uppercase;
 }
 .home .content h3 span{
     color:var(--main-color);
-    text-transform: uppercase;
 }
 .home .home-slider .swiper-slide{
     overflow: hidden;
@@ -202,7 +198,6 @@ section{
     color:#fff;
 }
 .service .box-container .box h3{
-    /*font-size: 2rem;color: #fff;padding: 1rem 0;*/
     font-size: 2rem;color: #ad14db;
     padding: 1rem 0;
 }

@@ -23,12 +23,10 @@ html {
   scroll-behavior: smooth;
   overflow-y: auto;
 }
-
 body {
   background: #fff;
   overflow-y: auto;
 }
-
 html::-webkit-scrollbar{
   width: 1rem;
 }
@@ -46,6 +44,7 @@ body {
   background: #fff;
   overflow-y: auto;
 }
+
 section{
   padding: 2rem 9%;
 }
@@ -55,12 +54,9 @@ section{
   padding-top: 2.2rem;
   padding-bottom: 1rem;
   color: #000;
-  text-transform: uppercase;
-  font-size: 3.5rem;
 }
 .heading span{
   color: var(--main-color);
-  text-transform: uppercase;
 }
 .btn{
  margin-top: 1rem;
@@ -145,6 +141,55 @@ section{
       padding: 2rem;
   }
 }
+
+.home .content{
+    text-align: center;
+    padding-top: 3.2rem;
+    margin: 2rem auto;
+    max-width: 70rem;
+}
+.home .content h3{
+    color: #000;
+    font-size: 2.5rem;
+}
+.home .content h3 span{
+    color:var(--main-color);
+}
+
+.home .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(27rem ,1fr));
+    gap: 3.5rem;
+}
+.home .box-container .box{
+    border-radius: .5rem;
+    background: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+.home .box-container .box i{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    background: var(--main-color);
+    color:#fff;
+}
+.home .box-container .box h3{
+    font-size: 2rem;color: #ad14db;
+    padding-top: 2rem;
+    font-size: 18px;
+}
+.home .box-container .box p{
+    font-size: 1.4rem;
+    color: #444;
+    line-height: 1.8;
+    padding-top: .7rem;
+}
+
 
 .formbold-main-wrapper {
   display: flex;

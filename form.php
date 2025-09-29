@@ -14,18 +14,45 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body dir="rtl">
- <header class="header">
-        <a href="#" class="logo">زفّـــــة<span>.</span></a>
-        <nav class="navbar">
-            <a href="index.php##home" class="nav-link">الصفحة الرئيسية</a>
-            <a href="index.php#about" class="nav-link">تعرف عنا</a>
-            <a href="index.php#service" class="nav-link">خدماتنا</a>
-            <a href="index.php#gallery" class="nav-link">معرضنا</a>
-            <a href="index.php#review" class="nav-link">تقييماتنا</a>
-            <a href="form.php" class="btn-book">احجز الآن</a>
-        </nav>
-        <div id="menu-bars" class="fas fa-bars"></div>
+    <header class="header">
+            <a href="#" class="logo">زفّـــــة<span>.</span></a>
+            <nav class="navbar">
+                <a href="index.php##home" class="nav-link">الصفحة الرئيسية</a>
+                <a href="index.php#about" class="nav-link">تعرف عنا</a>
+                <a href="index.php#service" class="nav-link">خدماتنا</a>
+                <a href="index.php#gallery" class="nav-link">معرضنا</a>
+                <a href="index.php#review" class="nav-link">تقييماتنا</a>
+                <a href="form.php" class="btn-book">احجز الآن</a>
+            </nav>
+            <div id="menu-bars" class="fas fa-bars"></div>
     </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3 class="heading">هنا يبدأ <span> حفلك المميز</span></h3>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-file-alt"></i>
+                <h3>1. ادخال المعلومات والاحتياجات</h3>   
+                <p>ادخل بياناتك الأساسية مع توضيح احتياجاتك الخاصة بالحفل.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-tags"></i>
+                <h3>2. استلام عرض السعر</h3>   
+                <p>سيُعرض لك سعر تقريبي وفقًا لاختياراتك، يمكنك تأكيد طلبك إذا كان السعر التقريبي مناسبًا.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone-alt"></i>
+                <h3>3. مراجعة و تأكيد الطلب</h3>
+                <p>سيُراجع طلبك خلال 24 ساعة، ونتواصل معك عبر الهاتف أو البريد الإلكتروني للتأكيد النهائي.</p>   
+            </div>
+        </div>
+</section>
+
+ 
+
+
 
     <div class="formbold-main-wrapper">
         <div class="formbold-form-wrapper">
