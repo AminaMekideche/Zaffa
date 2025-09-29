@@ -190,12 +190,18 @@ section{
     padding-top: .7rem;
 }
 
+@media (max-width: 991px) {
+  .home .box-container {
+    grid-template-columns: 1fr; 
+  }
+}
+
 
 .formbold-main-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 130px;
+  padding: 60px;
 }
 
 .formbold-form-wrapper {
@@ -205,7 +211,7 @@ section{
   background: white;
   border: 1px solid rgb(199, 199, 199);
   border-radius: 10px; 
-  box-shadow: 5px 5px 8px rgba(104, 104, 104, 0.5);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   padding: 25px;
 }
 
@@ -228,27 +234,29 @@ section{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #536387;
+  color: #333;
 }
 .formbold-steps li span {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #DDE3EC;
+  background: #f2f2f2;
   border-radius: 50%;
   width: 36px;
   height: 36px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #536387;
+  color: #333;
 }
 .formbold-steps li.active {
-  color: #07074D;;
+  color: #ad14db;
+  font-weight: bold;
 }
 .formbold-steps li.active span {
-  background: #934E63;
+  background: #ad14db;
   color: #FFFFFF;
+  font-weight: bold;
 }
 
 .formbold-input-flex {
@@ -256,6 +264,14 @@ section{
   gap: 20px;
   margin-bottom: 22px;
 }
+
+.formbold-input-flex.flex {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 10px; 
+}
+
 .formbold-input-flex > div {
   width: 50%;
 }
@@ -267,16 +283,16 @@ section{
   background: #FFFFFF;
   font-weight: 500;
   font-size: 16px;
-  color: #536387;
+  color: #333;
   outline: none;
   resize: none;
 }
 .formbold-form-input:focus {
-  border-color: #934E63;
+  border-color: #ad14db;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 .formbold-form-label {
-  color: #07074D;
+  color: #333;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -291,7 +307,7 @@ section{
 .formbold-form-confirm p {
   font-size: 16px;
   line-height: 24px;
-  color: #536387;
+  color: #333;
   margin-bottom: 22px;
   width: 75%;
 }
@@ -309,7 +325,7 @@ section{
   border-radius: 5px;
   font-size: 16px;
   line-height: 24px;
-  color: #536387;
+  color: #333;
   cursor: pointer;
   padding: 10px 20px;
   transition: all .3s ease-in-out;
@@ -318,7 +334,7 @@ section{
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
 }
 .formbold-confirm-btn.active {
-  background: #934E63;
+  background: #ad14db;
   color: #FFFFFF;
 }
 
@@ -366,7 +382,7 @@ section{
   padding: 10px 25px;
   border: none;
   font-weight: 500;
-  background-color: #934E63;
+  background-color: #ad14db;
   color: white;
   cursor: pointer;
 }
@@ -385,7 +401,7 @@ section{
   border: none;
   font-weight: 500;
   background-color: #e8e8e8;
-  color: rgb(53, 53, 53);
+  color: #353535;
   cursor: pointer;
 }
 .formbold-btn-am:hover {
@@ -402,7 +418,7 @@ section{
   padding: 10px 25px;
   border: none;
   font-weight: 500;
-  background-color: #934E63;
+  background-color: #ad14db;
   color: white;
   cursor: pointer;
 }
@@ -505,7 +521,7 @@ p {
 }
 
 h3 {
-  color: #934E63;
+  color: #ad14db;
   margin-bottom: 7px;
 
   

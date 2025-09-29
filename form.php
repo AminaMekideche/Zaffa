@@ -50,10 +50,6 @@
         </div>
 </section>
 
- 
-
-
-
     <div class="formbold-main-wrapper">
         <div class="formbold-form-wrapper">
           <form action="config.php" method="POST">
@@ -73,7 +69,7 @@
                       </li>
                       <li class="formbold-step-menu4">
                           <span>4</span>
-                          بياناتك الشخصية
+                          بياناتك 
                       </li>
                   </ul>
               </div>
@@ -160,7 +156,6 @@
                     </div>
                 </div>
         
-                <!-- قسم الأطباق الثانوية -->
                 <div class="food-category">
                     <h3 class="food-category-title">الأطباق الثانوية</h3>
                     <div class="food-items">
@@ -188,7 +183,6 @@
                     </div>
                 </div>
         
-                <!-- قسم السلطات -->
                 <div class="food-category">
                     <h3 class="food-category-title">السلطات</h3>
                     <div class="food-items">
@@ -288,7 +282,7 @@
         <div class="formbold-form-step-3">
                     <label class="formbold-form-label">اختر احتياجاتك</label>
                     <br>
-                    <div class="formbold-input-flex">
+                    <div class="formbold-input-flex flex">
                         <div>
                             <input type="checkbox" name="needs[]" value="DJ" id="dj">
                             <label for="dj">DJ</label>
